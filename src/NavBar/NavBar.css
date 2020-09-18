@@ -1,0 +1,6 @@
+.navBar{
+    background-color: yellow;
+}
+.navBar-nav{
+    justify-content: end !important;
+}

@@ -17,13 +17,14 @@
 .aboutMeJumbo {
   padding: 20px;
   border-radius: 0px 80px !important;
+  border: 4px solid var(--magnolia) !important;
   background-color: var(--blueRYB2) !important;
   color: var(--oxfordBlue) !important;
   justify-content: center;
   align-content: center;
   text-align: start;
   display: grid !important;
-  grid-template-rows: 30% 20% 50%;
+  grid-template-rows: 50% 20% 30%;
 }
 .aboutMeHeaderRow {
   grid-row: 1 / span 1;

@@ -12,7 +12,7 @@
   --blueRYB2: rgba(9, 79, 255, 0.050);
 }
 .aboutMeContainer {
-  padding: 80px;
+  padding: 70px;
 }
 .aboutMeJumbo {
   padding: 20px;
@@ -24,7 +24,7 @@
   align-content: center;
   text-align: start;
   display: grid !important;
-  grid-template-rows: 50% 20% 30%;
+  grid-template-rows: 30% 40% 30%;
 }
 .aboutMeHeaderRow {
   grid-row: 1 / span 1;
@@ -41,12 +41,6 @@
   background-color: var(--magnolia) !important;
   border: 1px solid var(--magnolia) !important;
 }
-.bodyButtonResume{
-  grid-row: 2 / span 1;
-  padding: 20px;
-  margin: 20px;
-}
-
 .buttonResume {
   justify-self: center;
   align-self: center;
@@ -72,11 +66,16 @@
 }
 .bodyButtonResume {
   justify-content: center;
-  align-self: center;
-  grid-row: 2/ span 1;
+  align-self: start;
+  grid-row: 3/ span 1;
 }
 .aboutMeParagraph{
-  grid-row: 3/ span 1;
+  grid-row: 2/ span 1;
   padding: 20px;
   margin: 20px;
+  justify-content: center;
+  align-content: center;
+}
+.letsWork{
+  border-bottom: 2px solid var(--deepCerise);
 }

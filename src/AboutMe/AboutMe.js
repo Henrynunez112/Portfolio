@@ -46,9 +46,15 @@ const AboutMe = () => {
           <div className="row bodyButtonResume">
             <button className="buttonResume">Resume</button>
           </div>
-            <div className="row aboutMeParagraph">
-              <p>I am originally from The South Bronx.</p>
-            </div>
+          <div className="row aboutMeParagraph">
+            <p>
+              I'm a passionate full-stack web developer from The Bronx, NY. I love
+              Hip Hop, puzzles, a long run, and a good conversation over a
+              couple of pints of beers. I am always looking forward to working
+              and meeting people.
+            </p>
+            <p className="h4 letsWork">Let's Work Together!</p>
+          </div>
         </div>
         <div className="col-5 meJumbo">
           <img

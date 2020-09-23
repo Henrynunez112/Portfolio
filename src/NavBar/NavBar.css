@@ -10,7 +10,9 @@
   --platinum: #EAECEE;
   --blueRYB: #0950FF;
 }
-
+#restInny{
+  color: var(--oxfordBlue) !important;
+}
 #root > div > nav{
   background-color: var(--magnolia) !important;
   font-family: 'Kumbh Sans', sans-serif;
@@ -52,4 +54,10 @@
   border: 1px solid var(--stPatrickBlue);
   transform: translateY(1px);
   transition: .5s;
+}
+.active{
+  color: var(--deepCerise) !important;
+}
+#contact{
+  color: white !important;
 }

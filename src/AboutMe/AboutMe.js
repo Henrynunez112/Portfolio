@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div className="container aboutMeContainer">
       <div className="row aboutMeRow">
         <div className="col-7 aboutMeJumbo">
-          <h1 className="display-4">Hey, I'm Henry Nuñez</h1>
+          <h1 className="display-4 aboutMeHeader">Hey, I'm Henry Nuñez</h1>
           <p className="h1 iAm">
             I'm also a{" "}
             <Typical

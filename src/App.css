@@ -1,7 +1,31 @@
+:root {
+  --deepCerise: #e22a8e;
+  --vividSkyBlue: #52d3f7;
+  --oxfordBlue: #031845;
+  --stPatrickBlue: #063088;
+  --platinum: #eaecee;
+  --magnolia: #ebf0ff;
+  --lavenderBlue: #c2d1ff;
+  --lBTwo: rgba(194, 209, 255, 0.6);
+  --magTwo: rgba(235, 240, 255, 0.9);
+  --blueRYB: #0950ff;
+}
+
 .App {
   text-align: center;
 }
-
+.siteBody {
+  background-color: var(--lavenderBlue);
+  /* background-image: url("./images/pexels-henry.jpg"); */
+  background-image:
+    linear-gradient(to right, var(--lBTwo), var(--magTwo)),url("./images/pexels-henry.jpg");
+  height: 92vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

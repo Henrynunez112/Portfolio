@@ -4,7 +4,9 @@
   --oxfordBlue: #031845;
   --stPatrickBlue: #063088;
   --magnolia: #EBF0FF;
+  --magTwo: rgba(235, 240, 255, 0.9);
   --lavenderBlue: #c2d1ff;
+  --lBTwo: rgba(194, 209, 255, 0.5);
   --platinum: #EAECEE;
   --blueRYB: #0950FF;
 }
@@ -46,6 +48,7 @@
 }
 .contactButton:active{
   box-shadow: 0 1px var(--oxfordBlue);
+  background-color: var(--stPatrickBlue);
   transform: translateY(1px);
   transition: .5s;
 }

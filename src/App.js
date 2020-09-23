@@ -5,11 +5,13 @@ import Skills from "./Skills/Skills";
 import AboutMe from "./AboutMe/AboutMe";
 import ContactMe from "./ContactMe/ContactMe";
 import { Route, Switch } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <div className="siteBody">
       <Switch>
         <Route exact path="/">
         <AboutMe />
@@ -24,6 +26,7 @@ function App() {
           <ContactMe />
         </Route>
       </Switch>
+      </div>
     </div>
   );
 }

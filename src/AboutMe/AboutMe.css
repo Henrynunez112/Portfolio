@@ -1,8 +1,21 @@
 :root {
-    --deepCerise: #E22A8E;
-    --vividSkyBlue: #52D3F7;
-    --oxfordBlue: #031845;
-    --platinum: #EAECEE;
-    --blueRYB: #0950FF;
-  }
-  
+  --deepCerise: #e22a8e;
+  --vividSkyBlue: #52d3f7;
+  --oxfordBlue: #031845;
+  --stPatrickBlue: #063088;
+  --platinum: #eaecee;
+  --magnolia: #ebf0ff;
+  --lavenderBlue: #c2d1ff;
+  --blueRYB: #0950ff;
+}
+
+.aboutMeContainer{
+  background-color: var(--magnolia) !important;
+  padding: 100px;
+}
+.aboutMeJumbo{
+  border-radius: 13px !important;
+  border: 1px solid var(--lavenderBlue);
+  background-color: var(--magnolia) !important;
+  color: var(--oxfordBlue) !important;
+}

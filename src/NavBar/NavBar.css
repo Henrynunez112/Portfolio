@@ -2,7 +2,9 @@
   --deepCerise: #E22A8E;
   --vividSkyBlue: #52D3F7;
   --oxfordBlue: #031845;
+  --stPatrickBlue: #063088;
   --magnolia: #EBF0FF;
+  --lavenderBlue: #c2d1ff;
   --platinum: #EAECEE;
   --blueRYB: #0950FF;
 }
@@ -10,15 +12,16 @@
 #root > div > nav{
   background-color: var(--magnolia) !important;
   font-family: 'Kumbh Sans', sans-serif;
+  border-bottom: 1px solid var(--lavenderBlue);
 }
 .aboutMe, .projects, .skills{
-  color: var(--oxfordBlue) !important;
+  color: var(--stPatrickBlue) !important;
 }
 .aboutMe:hover, .projects:hover, .skills:hover{
   color: var(--deepCerise) !important;
 }
 .navbar-brand{
-  color: var(--blueRYB) !important;
+  color: var(--stPatrickBlue) !important;
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: bold;
 }
@@ -27,9 +30,10 @@
   font-weight: bold;
 }
 .nav-link{
-  color: var(--oxfordBlue) !important;
+  color: var(--stPatrickBlue) !important;
 }
 .contactButton{
+  justify-self: center;
   background-color: var(--blueRYB);
   border-radius: 20px;
   color: var(--platinum) !important;

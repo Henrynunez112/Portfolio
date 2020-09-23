@@ -39,7 +39,7 @@
   background-color: var(--blueRYB);
   border-radius: 20px;
   color: var(--platinum) !important;
-  border: 1px solid var(--oxfordBlue);
+  border: 1px solid var(--blueRYB);
 }
 .contactButton:hover{
   box-shadow: 0 1em 1em -0.4em var(--oxfordBlue);
@@ -49,6 +49,7 @@
 .contactButton:active{
   box-shadow: 0 1px var(--oxfordBlue);
   background-color: var(--stPatrickBlue);
+  border: 1px solid var(--stPatrickBlue);
   transform: translateY(1px);
   transition: .5s;
 }

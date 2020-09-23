@@ -5,27 +5,32 @@
   --stPatrickBlue: #063088;
   --platinum: #eaecee;
   --magnolia: #ebf0ff;
+  --magTwo: rgba(235, 240, 255, 0.5);
   --lavenderBlue: #c2d1ff;
+  --lBTwo: rgba(194, 209, 255, 0.5);
   --blueRYB: #0950ff;
+  --blueRYB2: rgba(9, 79, 255, 0.050);
 }
 .aboutMeContainer {
   padding: 80px;
 }
 .aboutMeJumbo {
+  padding: 20px;
+  border-radius: 0px 80px !important;
+  background-color: var(--blueRYB2) !important;
   color: var(--oxfordBlue) !important;
   justify-content: center;
   align-content: center;
   text-align: start;
   display: grid !important;
-  grid-template-rows: 20% 20% 20% 40%;
+  grid-template-rows: 30% 20% 50%;
 }
-.aboutMeHeaderRow{
-  grid-row: 1/ span 2;
+.aboutMeHeaderRow {
+  grid-row: 1 / span 1;
+  padding: 20px;
+  margin: 20px;
 }
 
-.iAm {
-  text-align: start;
-}
 .styles_typicalWrapper__1_Uvh {
   color: var(--blueRYB) !important;
 }
@@ -35,38 +40,42 @@
   background-color: var(--magnolia) !important;
   border: 1px solid var(--magnolia) !important;
 }
-.resumeBtn {
-  display: grid !important;
-  grid-template-rows: repeat(3, 25px);
-  grid-template-columns: repeat(5, 25px);
-  justify-content: center;
-  align-content: center;
+.bodyButtonResume{
+  grid-row: 2 / span 1;
+  padding: 20px;
+  margin: 20px;
 }
+
 .buttonResume {
-  grid-row: 3/ span 1;
   justify-self: center;
   align-self: center;
   background-color: var(--blueRYB) !important;
-  border-radius: 20px;
   color: var(--platinum) !important;
-  border: 1px solid var(--oxfordBlue);
+  border: 1px solid var(--blueRYB);
   height: 50px;
   width: 100px;
   border-radius: 50px;
   outline: none !important;
 }
-.buttonResume:hover{
+.buttonResume:hover {
   box-shadow: 0 1em 1em -0.4em var(--oxfordBlue);
   transform: translateY(-0.15em);
-  transition: .5s;
+  transition: 0.5s;
 }
-.buttonResume:active{
+.buttonResume:active {
   box-shadow: 0 1px var(--oxfordBlue);
-  background-color: var(--stPatrickBlue);
+  background-color: var(--stPatrickBlue) !important;
   transform: translateY(1px);
-  transition: .5s;
+  transition: 0.5s;
+  border: 1px solid var(--stPatrickBlue);
 }
-.bodyButtonResume{
+.bodyButtonResume {
   justify-content: center;
   align-self: center;
+  grid-row: 2/ span 1;
+}
+.aboutMeParagraph{
+  grid-row: 3/ span 1;
+  padding: 20px;
+  margin: 20px;
 }

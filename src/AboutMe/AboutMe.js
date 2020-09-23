@@ -12,32 +12,32 @@ const AboutMe = () => {
           <div className="row aboutMeHeaderRow">
             <h1 className="display-4 aboutMeHeader">Hey, I'm Henry Nuñez</h1>
             <p className="h1 iAm">
-              I'm also a{" "}
+              I'm also{" "}
               <Typical
                 loop={Infinity}
                 wrapper="b"
                 steps={[
-                  "Soccer Player",
+                  "a Soccer Player.",
                   500,
-                  "Volleyball Player",
+                  "a Volleyball Player.",
                   500,
-                  "Art Aficionado",
+                  "a Art Aficionado.",
                   500,
-                  "Hondureño",
+                  "a Hondureño.",
                   500,
-                  "Runner",
+                  "a Runner.",
                   500,
-                  "Afro-Latinx",
+                  "a Afro-Latinx.",
                   500,
-                  "Black Man",
+                  "a Black Man.",
                   500,
-                  "Garifuna",
+                  "a Garifuna.",
                   500,
-                  "Authentic",
+                  "an Authentic.",
                   500,
-                  "Team Player",
+                  "a Team Player.",
                   500,
-                  "Creator",
+                  "a Creator.",
                   500,
                 ]}
               />
@@ -46,6 +46,9 @@ const AboutMe = () => {
           <div className="row bodyButtonResume">
             <button className="buttonResume">Resume</button>
           </div>
+            <div className="row aboutMeParagraph">
+              <p>I am originally from The South Bronx.</p>
+            </div>
         </div>
         <div className="col-5 meJumbo">
           <img

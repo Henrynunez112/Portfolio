@@ -2,7 +2,45 @@
   --deepCerise: #E22A8E;
   --vividSkyBlue: #52D3F7;
   --oxfordBlue: #031845;
+  --magnolia: #EBF0FF;
   --platinum: #EAECEE;
   --blueRYB: #0950FF;
 }
 
+#root > div > nav{
+  background-color: var(--magnolia) !important;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.aboutMe, .projects, .skills{
+  color: var(--oxfordBlue) !important;
+}
+.aboutMe:hover, .projects:hover, .skills:hover{
+  color: var(--deepCerise) !important;
+}
+.navbar-brand{
+  color: var(--blueRYB) !important;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bold;
+}
+#initials{
+  color: var(--deepCerise) !important;
+  font-weight: bold;
+}
+.nav-link{
+  color: var(--oxfordBlue) !important;
+}
+.contactButton{
+  background-color: var(--blueRYB);
+  border-radius: 20px;
+  color: var(--platinum) !important;
+  border: 1px solid var(--oxfordBlue);
+}
+.contactButton:hover{
+  box-shadow: 0 1em 1em -0.4em var(--oxfordBlue);
+  transform: translateY(-0.15em);
+}
+.contactButton:active{
+  box-shadow: 0 1px var(--oxfordBlue);
+  transform: translateY(1px);
+  color: var(--deepCerise) !important;
+}

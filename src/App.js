@@ -4,24 +4,26 @@ import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import AboutMe from "./AboutMe/AboutMe";
 import ContactMe from "./ContactMe/ContactMe";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Route exact path="/">
+      <Switch>
+        <Route exact path="/">
         <AboutMe />
-      </Route>
-      <Route path="/projects">
-        <Projects />
-      </Route>
-      <Route path="/skills">
-        <Skills />
-      </Route>
-      <Route path="/contact">
-        <ContactMe />
-      </Route>
+        </Route>
+        <Route exact path="/projects">
+          <Projects />
+        </Route>
+        <Route exact path="/skills">
+          <Skills />
+        </Route>
+        <Route exact path="/contact">
+          <ContactMe />
+        </Route>
+      </Switch>
     </div>
   );
 }

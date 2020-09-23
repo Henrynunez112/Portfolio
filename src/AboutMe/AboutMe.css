@@ -8,31 +8,65 @@
   --lavenderBlue: #c2d1ff;
   --blueRYB: #0950ff;
 }
-
-.aboutMeContainer{
-  /* background-color: var(--magnolia) !important; */
+.aboutMeContainer {
   padding: 80px;
 }
-.aboutMeJumbo{
+.aboutMeJumbo {
   color: var(--oxfordBlue) !important;
   justify-content: center;
   align-content: center;
   text-align: start;
+  display: grid !important;
+  grid-template-rows: 20% 20% 20% 40%;
+}
+.aboutMeHeaderRow{
+  grid-row: 1/ span 2;
 }
 
-.iAm{
+.iAm {
   text-align: start;
 }
-.styles_typicalWrapper__1_Uvh{
+.styles_typicalWrapper__1_Uvh {
   color: var(--blueRYB) !important;
 }
-.imgOfHenry{
+.imgOfHenry {
   border-radius: 80px 0px !important;
   box-shadow: 20px 20px var(--blueRYB);
   background-color: var(--magnolia) !important;
   border: 1px solid var(--magnolia) !important;
 }
-.resumeBtn{
+.resumeBtn {
+  display: grid !important;
+  grid-template-rows: repeat(3, 25px);
+  grid-template-columns: repeat(5, 25px);
   justify-content: center;
   align-content: center;
+}
+.buttonResume {
+  grid-row: 3/ span 1;
+  justify-self: center;
+  align-self: center;
+  background-color: var(--blueRYB) !important;
+  border-radius: 20px;
+  color: var(--platinum) !important;
+  border: 1px solid var(--oxfordBlue);
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+  outline: none !important;
+}
+.buttonResume:hover{
+  box-shadow: 0 1em 1em -0.4em var(--oxfordBlue);
+  transform: translateY(-0.15em);
+  transition: .5s;
+}
+.buttonResume:active{
+  box-shadow: 0 1px var(--oxfordBlue);
+  background-color: var(--stPatrickBlue);
+  transform: translateY(1px);
+  transition: .5s;
+}
+.bodyButtonResume{
+  justify-content: center;
+  align-self: center;
 }

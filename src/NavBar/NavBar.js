@@ -1,21 +1,30 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
-import "./NavBar.css"
+import { NavLink } from "react-router-dom";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <div >
-      <Navbar className="navBar" expand="lg">
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="justify-content-end">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </div>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light roadieNav sticky-top">
+      <NavLink className="navbar-brand" href="#" exact to="/">
+        <span>Henry Nuñez</span>
+      </NavLink>
+      <div className="collapse navbar-collapse justify-content-end">
+        <ul className="nav">
+          <li className="nav-item">
+            <NavLink className="nav-link">About Me</NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink className="nav-link">Projects</NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink className="nav-link">Skills</NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink className="nav-link">Contact Me</NavLink>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 };
 export default NavBar;

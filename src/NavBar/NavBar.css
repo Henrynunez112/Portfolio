@@ -47,4 +47,5 @@
 .contactButton:active{
   box-shadow: 0 1px var(--oxfordBlue);
   transform: translateY(1px);
+  transition: .5s;
 }

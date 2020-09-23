@@ -38,9 +38,9 @@
 .contactButton:hover{
   box-shadow: 0 1em 1em -0.4em var(--oxfordBlue);
   transform: translateY(-0.15em);
+  transition: .5s;
 }
 .contactButton:active{
   box-shadow: 0 1px var(--oxfordBlue);
   transform: translateY(1px);
-  color: var(--deepCerise) !important;
 }

@@ -14,18 +14,17 @@
 .App {
   text-align: center;
 }
-.siteBody {
+/* .siteBody {
   background-color: var(--lavenderBlue);
-  /* background-image: url("./images/pexels-henry.jpg"); */
   background-image:
     linear-gradient(to right, var(--lBTwo), var(--magTwo)),url("./images/pexels-henry.jpg");
-  height: 92vh;
+  height: 100vh;
   width: 100%;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -1,4 +1,6 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
 import NavBar from "./NavBar/NavBar";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
@@ -12,20 +14,20 @@ function App() {
     <div className="App">
       <NavBar />
       <div className="siteBody">
-      <Switch>
-        <Route exact path="/">
-        <AboutMe />
-        </Route>
-        <Route exact path="/projects">
-          <Projects />
-        </Route>
-        <Route exact path="/skills">
-          <Skills />
-        </Route>
-        <Route exact path="/contact">
-          <ContactMe />
-        </Route>
-      </Switch>
+        <Switch>
+          <Route exact path="/">
+            <AboutMe />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+          <Route exact path="/skills">
+            <Skills />
+          </Route>
+          <Route exact path="/contact">
+            <ContactMe />
+          </Route>
+        </Switch>
       </div>
     </div>
   );

@@ -10,8 +10,22 @@ const NavBar = () => {
         <span id="restInny">enry</span> <span id="initials">N</span>
         <span id="restInny">uñez</span>
       </NavLink>
-      <div className="collapse navbar-collapse justify-content-end">
-        <ul className="nav navUl">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        className="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul className="navbar-nav justify-content-end">
           <li className="nav-item">
             <NavLink
               activeStyle={{
@@ -24,7 +38,7 @@ const NavBar = () => {
               About Me
             </NavLink>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <NavLink
               activeStyle={{
                 color: "#E22A8E",
@@ -36,7 +50,7 @@ const NavBar = () => {
               Projects
             </NavLink>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <NavLink
               activeStyle={{
                 color: "#E22A8E",
@@ -48,8 +62,13 @@ const NavBar = () => {
               Skills
             </NavLink>
           </li>
-          <li class="nav-item">
-            <NavLink id="contact" className="nav-link contactButton" exact to="/contact">
+          <li className="nav-item ">
+            <NavLink
+              id="contact"
+              className="nav-link contactButton"
+              exact
+              to="/contact"
+            >
               Contact
             </NavLink>
           </li>

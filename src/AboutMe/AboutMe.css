@@ -106,3 +106,6 @@
 .blockquote-footer {
   color: var(--deepCerise) !important;
 }
+.descriptionFooter{
+  padding: 10px;
+}

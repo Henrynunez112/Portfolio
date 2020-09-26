@@ -1,5 +1,6 @@
 :root {
   --deepCerise: #e22a8e;
+  --deepCeriseDark: #6C0F42;
   --vividSkyBlue: #52d3f7;
   --oxfordBlue: #031845;
   --stPatrickBlue: #063088;
@@ -24,19 +25,41 @@
   background-color: var(--lBTwo) !important;
   color: var(--oxfordBlue) !important;
 }
-.projectJumbo{
-    padding: 20px;
-    margin-bottom: 10px;
+.projectJumbo {
+  padding: 20px;
+  margin-bottom: 10px;
 }
 #hwitterImg {
   border-radius: 50px 0px !important;
   box-shadow: 20px 20px var(--blueRYB);
   background-color: var(--magnolia) !important;
-  border: 2px solid var(--magnolia) !important;
+  border: 2px solid var(--vividSkyBlue) !important;
 }
-.projectDescription{
-    border: 1px solid green;
+.projectDescription {
+  padding: 10px;
 }
-.descriptionText{
-    border: 1px solid var(--blueRYB);
+.descriptionText {
+  border-radius: 0px 50px !important;
+  border: 2px solid var(--oxfordBlue);
+  background-color: var(--lBTwo) !important;
+  color: var(--oxfordBlue) !important;
+}
+#descriptionHeader {
+  margin-bottom: 10px;
+}
+.descriptionBody {
+  padding: 15px;
+  border: 2px solid var(--stPatrickBlue);
+  background-color: var(--stPatrickOpacity);
+  border-radius: 0px 50px;
+  color: white;
+}
+
+#liveLink:active,
+#githubLink:active {
+  box-shadow: 0 1px var(--oxfordBlue);
+  background-color: var(--deepCeriseDark) !important;
+  transform: translateY(1px);
+  transition: 0.5s;
+  border: 1px solid var(--deepCeriseDark);
 }

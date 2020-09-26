@@ -1,6 +1,6 @@
 import React from "react";
 import Hwitter from "../images/Hwitter.png";
-
+import Roadie from "../images/Roadie.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -14,37 +14,52 @@ const Projects = () => {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-10 projectJumbo">
-          <img src={Hwitter} className="img-fluid" id="hwitterImg" />
-        </div>
-      </div>
-      <div className="row justify-content-center">
-        <div className="col-10 projectDescription">
-          <div className="row justify-content-center descriptionText">
-            <div className="col">
-              <div className="row justify-content-center">
-                <div className="col-10">
-                  <h3 id="descriptionHeader">Hwitter</h3>
-                  <blockquote className="blockquote text-center descriptionBody">
-                    <p className="mb-0">
-                      A twitter inspired social media application. Build with
-                      React, Bootstarp, JavaScript, Firebase, Firestore, CSS3,
-                      HTML5, PostgreSQL.
-                    </p>
-                  </blockquote>
-                </div>
+        <div className="col-md-7">
+          <div className="row justify-content-center">
+            <div className="col-10 projectJumbo">
+              <img src={Hwitter} className="img-fluid" id="hwitterImg" />
+            </div>
+          </div>
+            <div className="row justify-content-around descriptionFooter">
+              <div className="col">
+                <button className="buttonResume" id="liveLink">
+                  Live
+                </button>
               </div>
-              <div className="row justify-content-around descriptionFooter">
-                <button className="buttonResume" id="liveLink">Live</button>
-                <button className="buttonResume" id="githubLink">Git Hub</button>
+              <div className="col">
+                <button className="buttonResume" id="githubLink">
+                  Git Hub
+                </button>
+              </div>
+            </div>
+        </div>
+        <div className="col-md-4">
+          <div className="row justify-content-center">
+            <div className="col-10 projectDescription">
+              <div className="row justify-content-center descriptionText">
+                <div className="col">
+                  <div className="row justify-content-center">
+                    <div className="col-10">
+                      <h3 id="descriptionHeader">Hwitter</h3>
+                      <blockquote className="blockquote text-center descriptionBody">
+                        <p className="mb-0">
+                          A twitter inspired social media application. Build
+                          with React, Bootstarp, JavaScript, Firebase,
+                          Firestore, CSS3, HTML5, PostgreSQL.
+                        </p>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className="row justify-content-center">
         <div className="col-10 projectJumbo">
-          <img src={Hwitter} className="img-fluid" id="hwitterImg" />
+          <img src={Roadie} className="img-fluid" id="roadieImg" />
         </div>
       </div>
       <div className="row justify-content-center">
@@ -53,19 +68,25 @@ const Projects = () => {
             <div className="col">
               <div className="row justify-content-center">
                 <div className="col-10">
-                  <h3 id="descriptionHeader">Hwitter</h3>
+                  <h3 id="descriptionHeader">Roadie</h3>
                   <blockquote className="blockquote text-center descriptionBody">
                     <p className="mb-0">
-                      A twitter inspired social media application. Build with
-                      React, Bootstarp, JavaScript, Firebase, Firestore, CSS3,
-                      HTML5, PostgreSQL.
+                      A booking and event planning application that provides
+                      access to book your favorite local artist to perform at
+                      your next event. Build with React, Redux, Bootstarp,
+                      JavaScript, Firebase, Firestore, CSS3, HTML5, PostgreSQL,
+                      noSQL.
                     </p>
                   </blockquote>
                 </div>
               </div>
               <div className="row justify-content-around descriptionFooter">
-                <button className="buttonResume" id="liveLink">Live</button>
-                <button className="buttonResume" id="githubLink">Git Hub</button>
+                <button className="buttonResume" id="roadieLiveLink">
+                  Live
+                </button>
+                <button className="buttonResume" id="roadieGithubLink">
+                  Git Hub
+                </button>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 :root {
   --deepCerise: #e22a8e;
-  --deepCeriseDark: #6C0F42;
+  --deepCeriseDark: #6c0f42;
   --vividSkyBlue: #52d3f7;
   --oxfordBlue: #031845;
   --stPatrickBlue: #063088;
@@ -33,7 +33,13 @@
   border-radius: 50px 0px !important;
   box-shadow: 20px 20px var(--blueRYB);
   background-color: var(--magnolia) !important;
-  border: 2px solid var(--vividSkyBlue) !important;
+  border: 2px solid var(--deepCerise) !important;
+}
+#roadieImg {
+  border-radius: 50px 0px !important;
+  box-shadow: 20px 20px var(--blueRYB);
+  background-color: var(--magnolia) !important;
+  border: 2px solid var(--deepCerise) !important;
 }
 .projectDescription {
   padding: 10px;
@@ -58,8 +64,18 @@
 #liveLink:active,
 #githubLink:active {
   box-shadow: 0 1px var(--oxfordBlue);
-  background-color: var(--deepCeriseDark) !important;
+  background-color: #6c0f42 !important;
   transform: translateY(1px);
   transition: 0.5s;
-  border: 1px solid var(--deepCeriseDark);
+  border: 2px solid #6c0f42;
+  color: var(--magnolia) !important;
+}
+#roadieLiveLink:active,
+#roadieGithubLink:active {
+  box-shadow: 0 1px var(--oxfordBlue);
+  background-color: #6c0f42 !important;
+  transform: translateY(1px);
+  transition: 0.5s;
+  border: 2px solid #6c0f42;
+  color: var(--magnolia) !important;
 }

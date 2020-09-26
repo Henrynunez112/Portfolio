@@ -1,0 +1,42 @@
+:root {
+  --deepCerise: #e22a8e;
+  --vividSkyBlue: #52d3f7;
+  --oxfordBlue: #031845;
+  --stPatrickBlue: #063088;
+  --stPatrickOpacity: rgba(6, 47, 136, 0.4);
+  --platinum: #eaecee;
+  --magnolia: #ebf0ff;
+  --magTwo: rgba(235, 240, 255, 0.5);
+  --lavenderBlue: #c2d1ff;
+  --lBTwo: rgba(194, 209, 255, 0.5);
+  --blueRYB: #0950ff;
+  --blueRYB2: rgba(9, 79, 255, 0.05);
+}
+.projectsContainer {
+  padding: 10px;
+}
+.projectsHeader {
+  padding: 10px;
+}
+.headerProjects {
+  border-radius: 0px 50px !important;
+  border: 2px solid var(--oxfordBlue);
+  background-color: var(--lBTwo) !important;
+  color: var(--oxfordBlue) !important;
+}
+.projectJumbo{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#hwitterImg {
+  border-radius: 50px 0px !important;
+  box-shadow: 20px 20px var(--blueRYB);
+  background-color: var(--magnolia) !important;
+  border: 2px solid var(--magnolia) !important;
+}
+.projectDescription{
+    border: 1px solid green;
+}
+.descriptionText{
+    border: 1px solid var(--blueRYB);
+}

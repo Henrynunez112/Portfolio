@@ -11,9 +11,9 @@
   --blueRYB: #0950ff;
   --blueRYB2: rgba(9, 79, 255, 0.050);
 }
-.aboutMeContainer {
+/* .aboutMeContainer {
   padding: 70px;
-}
+} */
 .aboutMeJumbo {
   padding: 20px;
   border-radius: 0px 80px !important;
@@ -33,7 +33,7 @@
 }
 
 .styles_typicalWrapper__1_Uvh {
-  color: var(--blueRYB) !important;
+  color: var(--deepCerise) !important;
 }
 .imgOfHenry {
   border-radius: 80px 0px !important;
@@ -77,5 +77,5 @@
   align-content: center;
 }
 .letsWork{
-  border-bottom: 2px solid var(--deepCerise);
+  border-bottom: 2px solid var(--blueRYB);
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import Typical from "react-typical";
 import Henry2 from "../images/Henry2.JPG";
 import "./AboutMe.css";
@@ -8,8 +7,8 @@ const AboutMe = () => {
   return (
     <div className="container aboutMeContainer">
       <div className="row aboutMeRow">
-        <div className="col-7 aboutMeJumbo">
-          <div className="row aboutMeHeaderRow">
+        <div className="col-10 aboutMeJumbo">
+          {/* <div className="row aboutMeHeaderRow">
             <h1 className="display-4 aboutMeHeader">Hey, I'm Henry Nuñez</h1>
             <p className="h1 iAm">
               I'm also{" "}
@@ -21,7 +20,7 @@ const AboutMe = () => {
                   500,
                   "a Volleyball Player.",
                   500,
-                  "a Art Aficionado.",
+                  "an Art Aficionado.",
                   500,
                   "a Hondureño.",
                   500,
@@ -42,7 +41,9 @@ const AboutMe = () => {
                 ]}
               />
             </p>
-          </div>
+          </div> */}
+        </div>
+        {/*
           <div className="row bodyButtonResume">
             <button className="buttonResume">Resume</button>
           </div>
@@ -62,7 +63,7 @@ const AboutMe = () => {
             alt={"henry is smilling"}
             class="img-thumbnail imgOfHenry"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

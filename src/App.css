@@ -6,13 +6,21 @@
   --platinum: #eaecee;
   --magnolia: #ebf0ff;
   --lavenderBlue: #c2d1ff;
-  --lBTwo: rgba(194, 209, 255, 0.6);
-  --magTwo: rgba(235, 240, 255, 0.9);
+  --lBTwoApp: rgba(180, 197, 248, 0.616);
+  --magTwoApp: rgba(36, 90, 253, 0.3);
   --blueRYB: #0950ff;
 }
 
 .App {
+  height: 100%;
   text-align: center;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--lBTwoApp),
+    var(--magTwoApp)
+  ),
+  url("./images/pexels-henry.jpg");
+  background-size: cover;
 }
 /* .siteBody {
   background-color: var(--lavenderBlue);

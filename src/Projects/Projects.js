@@ -43,8 +43,8 @@ const Projects = () => {
                       <h3 id="descriptionHeader">Hwitter</h3>
                       <blockquote className="blockquote text-center descriptionBody">
                         <p className="mb-0">
-                          A twitter inspired social media application. Build
-                          with React, Bootstarp, JavaScript, Firebase,
+                          A twitter inspired social media application. Built
+                          with React, Bootstrap, JavaScript, Firebase,
                           Firestore, CSS3, HTML5, PostgreSQL.
                         </p>
                       </blockquote>
@@ -88,8 +88,8 @@ const Projects = () => {
                         <p className="mb-0">
                           A booking and event planning application that provides
                           access to book your favorite local artist to perform
-                          at your next event. Build with React, Redux,
-                          Bootstarp, JavaScript, Firebase, Firestore, CSS3,
+                          at your next event. Built with React, Redux,
+                          Bootstrap, JavaScript, Firebase, Firestore, CSS3,
                           HTML5, PostgreSQL, noSQL.
                         </p>
                       </blockquote>

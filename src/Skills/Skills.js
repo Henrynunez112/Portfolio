@@ -14,7 +14,7 @@ const Skills = () => {
       <div className="col skillsContent">
         <div className="row justify-content-center firstThree">
           <div className="col-md-10 justify-content-between firstThreeContainer">
-            <div className="row individualSkills justify-content-center">
+            <div className="row individualSkills justify-content-around">
               <div className="col skillsContainer js">
                 <div className="row imgOfSkill">
                   <div className="col-8 imgContent">

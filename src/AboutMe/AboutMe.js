@@ -10,53 +10,53 @@ const AboutMe = () => {
         <div className="col-md-6">
           <div className="row justify-content-center">
             <div className="col-sm-10 aboutMeJumbo">
-              <div className="row justify-content-center aboutMeHeaderRow">
+              <div className="row justify-content-around aboutMeHeaderRow">
                 <p className="h1 text-center col-10 aboutMeHeader">
-                  Hey, I'm Henry Nuñez
+                Henry Nuñez
                 </p>
               </div>
+              <div className="row justify-content-center text-left aboutMeParagraphContainer">
+                <div className="col-10 aboutMeP">
+                  <p className="lead" id="aboutHenry">
+                    I'm a passionate full-stack web developer from The Bronx,
+                    NY. I love Hip Hop, puzzles, long runs, and a good
+                    conversation over a couple of pints. I am always
+                    looking forward to working and meeting new people.
+                  </p>
+                </div>
+              </div>
               <div className="row justify-content-center typistContainer">
-                <p className="lead">
+                <p className="h4">
                   I'm also{" "}
                   <Typical
                     loop={Infinity}
                     wrapper="b"
                     steps={[
                       "a Soccer Player.",
-                      500,
+                      700,
                       "a Volleyball Player.",
-                      500,
+                      700,
                       "an Art Aficionado.",
-                      500,
-                      "a Hondureño.",
-                      500,
+                      700,
+                      "un Hondureño.",
+                      700,
                       "a Runner.",
-                      500,
-                      "a Afro-Latinx.",
-                      500,
+                      700,
+                      "a Afro-Latino.",
+                      700,
                       "a Black Man.",
-                      500,
+                      700,
                       "a Garifuna.",
-                      500,
-                      "an Authentic.",
-                      500,
+                      700,
+                      "inquisitive.",
+                      700,
                       "a Team Player.",
-                      500,
+                      700,
                       "a Creator.",
-                      500,
+                      700,
                     ]}
                   />
                 </p>
-              </div>
-              <div className="row justify-content-center text-left aboutMeParagraphContainer">
-                <div className="col-10 aboutMeP">
-                  <p clasName="lead" id="aboutHenry">
-                    I'm a passionate full-stack web developer from The Bronx,
-                    NY. I love Hip Hop, puzzles, a long run, and a good
-                    conversation over a couple of pints of beers. I am always
-                    looking forward to working and meeting people.
-                  </p>
-                </div>
               </div>
               <div className="row justify-content-center aboutMeFooter">
                 <p className="h4 letsWork">Let's Work Together!</p>
@@ -70,7 +70,7 @@ const AboutMe = () => {
         <div className="col-md-4 ">
           <div className="row justify-content-center aboutMeFirstRow">
             <div className="col meJumbo">
-              <img src={Henry2} alt={"henry is smilling"} class="imgOfHenry" />
+              <img src={Henry2} alt={"henry is smilling"} className="imgOfHenry" />
             </div>
           </div>
           <div className="row justify-content-center">

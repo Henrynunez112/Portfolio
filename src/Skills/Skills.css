@@ -36,6 +36,9 @@
   box-shadow: 5px 10px var(--deepCerise);
   background-color: var(--magnolia) !important;
 }
+.skillsContainer:hover{
+  flex-direction: row-reverse;
+}
 .firstThree,
 .thirdThree,
 .secondThree {

@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactMe = () =>{
     return(
-        <div>
-            Hello Contact Page
+        <div className="container contactMeForm">
+           
         </div>
     )
 

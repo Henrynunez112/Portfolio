@@ -1,0 +1,70 @@
+:root {
+  --deepCerise: #e22a8e;
+  --deepCeriseDark: #6c0f42;
+  --vividSkyBlue: #52d3f7;
+  --oxfordBlue: #031845;
+  --stPatrickBlue: #063088;
+  --stPatrickOpacity: rgba(6, 47, 136, 0.4);
+  --platinum: #eaecee;
+  --magnolia: #ebf0ff;
+  --magTwo: rgba(235, 240, 255, 0.5);
+  --lavenderBlue: #c2d1ff;
+  --lBTwo: rgba(194, 209, 255, 0.5);
+  --blueRYB: #0950ff;
+  --blueRYB2: rgba(9, 79, 255, 0.05);
+}
+.wholeSkillsContainer {
+  padding: 5px;
+}
+.skillsHeader {
+  padding: 10px;
+}
+.headerSkills {
+  border-radius: 0px 50px !important;
+  border: 2px solid var(--oxfordBlue);
+  background-color: var(--lBTwo) !important;
+  color: var(--oxfordBlue) !important;
+}
+.theSkill {
+  font-size: 100px;
+  text-align: center;
+}
+.skillsContainer {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid var(--lBTwo);
+  box-shadow: 5px 10px var(--deepCerise);
+  background-color: var(--magnolia) !important;
+}
+.firstThree,
+.thirdThree,
+.secondThree {
+  border: 2px solid var(--oxfordBlue) !important;
+  border-radius: 50px 0px 0px 0px !important;
+  padding: 10px;
+  margin: 10px;
+  background-color: var(--lBTwo) ;
+}
+.secondThree {
+  border-radius: 0px !important;
+}
+.thirdThree {
+  border-radius: 0px 0px 50px 0px !important;
+}
+.skillsContent{
+    padding: 10px;
+    border: 2px solid var(--magnolia);
+    border-radius: 50px 0px;
+    background-color: var(--stPatrickOpacity) !important;
+    box-shadow: 5px 10px var(--blueRYB);
+}
+.firstThreeContainer {
+  display: flex;
+  margin: 10px;
+}
+.js{
+    border-radius: 20px 0px 0px 0px;
+}
+.bootstrap{
+    border-radius: 0px 0px 20px 0px;
+}

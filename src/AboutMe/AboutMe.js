@@ -16,7 +16,6 @@ const AboutMe = () => {
                 </p>
               </div>
               <div className="row justify-content-center typistContainer">
-                
                 <p className="lead">
                   I'm also{" "}
                   <Typical
@@ -76,14 +75,13 @@ const AboutMe = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col aboutMeQuote">
-            <blockquote className="blockquote text-right philsQuote">
-              <p class="mb-0">
-              The cowards never started and the weak died along the way. That leaves us, ladies and gentlemen. Us.
-              </p>
-              <footer className="blockquote-footer">
-                Phil Knight
-              </footer>
-            </blockquote>
+              <blockquote className="blockquote text-right philsQuote">
+                <p className="mb-0">
+                  The cowards never started and the weak died along the way.
+                  That leaves us, ladies and gentlemen. Us.
+                </p>
+                <footer className="blockquote-footer">Phil Knight</footer>
+              </blockquote>
             </div>
           </div>
         </div>

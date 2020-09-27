@@ -1,0 +1,87 @@
+:root {
+  --deepCerise: #e22a8e;
+  --deepCeriseDark: #6c0f42;
+  --deepCeriseOpacity: rgba(108, 15, 66, 0.6);
+  --vividSkyBlue: #52d3f7;
+  --oxfordBlue: #031845;
+  --stPatrickBlue: #063088;
+  --stPatrickOpacity: rgba(6, 47, 136, 0.4);
+  --platinum: #eaecee;
+  --magnolia: #ebf0ff;
+  --magTwo: rgba(235, 240, 255, 0.5);
+  --lavenderBlue: #c2d1ff;
+  --lBTwo: rgba(194, 209, 255, 0.5);
+  --blueRYB: #0950ff;
+  --blueRYB2: rgba(9, 79, 255, 0.05);
+}
+.contactMeForm {
+  padding: 20px;
+}
+.contactHeader {
+  border-radius: 50px !important;
+  border: 2px solid var(--oxfordBlue);
+  background-color: var(--lBTwo) !important;
+  color: var(--oxfordBlue) !important;
+  margin-bottom: 10px;
+}
+.contactBodyRow {
+  border: 2px solid var(--oxfordBlue) !important;
+  border-radius: 50px !important;
+  margin-bottom: 10px;
+  background-color: var(--stPatrickOpacity);
+}
+.contactBodyDiv {
+  background-color: var(--lBTwo) !important;
+  margin: 10px;
+  border-radius: 50px !important;
+  border: 2px solid var(--oxfordBlue);
+  box-shadow: 5px 5px var(--blueRYB);
+}
+.contactHeaderTouch {
+  /* border: 2px solid var(--oxfordBlue);
+  background-color: var(--lBTwo) !important;
+  border-radius: 50px; */
+  margin: 10px;
+}
+.emailContact {
+  margin: 10px;
+  /* border: 2px solid var(--oxfordBlue);
+  border-radius: 50px; */
+}
+.logoContact{
+  border: 2px solid var(--oxfordBlue);
+  border-radius: 50px;
+  background-color: var(--magnolia);
+  padding: 5px;
+  margin: 10px 0px;
+  box-shadow: 5px 5px var(--deepCeriseDark);
+}
+
+.contactFormRow {
+  border: 2px solid var(--oxfordBlue) !important;
+  background-color: var(--stPatrickOpacity) !important;
+  border-radius: 50px;
+  padding: 10px;
+}
+.contactForm {
+  background-color: var(--lBTwo) !important;
+  border-radius: 50px;
+  border: 2px solid var(--oxfordBlue);
+  box-shadow: 5px 5px var(--deepCerise);
+  padding: 20px;
+}
+.nameContactText {
+  margin-bottom: 10px;
+}
+.theSkillTwo {
+  font-size: 60px;
+}
+.form-control{
+  border: 2px solid var(--oxfordBlue);
+  border-radius: 50px;
+  padding: 10px;
+  resize: none;
+}
+.buttonContact{
+  margin: 10px 0px;
+}

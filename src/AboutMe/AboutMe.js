@@ -1,6 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 import Henry2 from "../images/Henry2.JPG";
+import resume from "../Resume/Resume_Henry_Nuñez.pdf";
 import "./AboutMe.css";
 
 const AboutMe = () => {
@@ -12,7 +13,7 @@ const AboutMe = () => {
             <div className="col-sm-10 aboutMeJumbo">
               <div className="row justify-content-around aboutMeHeaderRow">
                 <p className="h1 text-center col-10 aboutMeHeader display-4">
-                Henry Nuñez
+                  Henry Nuñez
                 </p>
               </div>
               <div className="row justify-content-center text-left aboutMeParagraphContainer">
@@ -20,8 +21,8 @@ const AboutMe = () => {
                   <p className="lead" id="aboutHenry">
                     I'm a passionate full-stack web developer from The Bronx,
                     NY. I love Hip Hop, puzzles, long runs, and a good
-                    conversation over a couple of pints. I am always
-                    looking forward to working and meeting new people.
+                    conversation over a couple of pints. I am always looking
+                    forward to working and meeting new people.
                   </p>
                 </div>
               </div>
@@ -62,7 +63,15 @@ const AboutMe = () => {
                 <p className="h4 letsWork">Let's Work Together!</p>
               </div>
               <div className="row justify-content-center bodyButtonResume">
-                <button className="buttonResume">Resume</button>
+                <button className="buttonResume">
+                  <a
+                    href={resume}
+                    // className="buttonResume"
+                    id="resumeTag"
+                  >
+                    Resume
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -70,7 +79,11 @@ const AboutMe = () => {
         <div className="col-md-4 ">
           <div className="row justify-content-center aboutMeFirstRow">
             <div className="col meJumbo">
-              <img src={Henry2} alt={"henry is smilling"} className="imgOfHenry" />
+              <img
+                src={Henry2}
+                alt={"henry is smilling"}
+                className="imgOfHenry"
+              />
             </div>
           </div>
           <div className="row justify-content-center">

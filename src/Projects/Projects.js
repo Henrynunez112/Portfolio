@@ -17,18 +17,30 @@ const Projects = () => {
         <div className="col-md-7 col-lg-7">
           <div className="row justify-content-center">
             <div className="col-10 projectJumbo">
-              <img src={Hwitter} alt="screenshot of Hwitter" className="img-fluid" id="hwitterImg" />
+              <img
+                src={Hwitter}
+                alt="screenshot of Hwitter"
+                className="img-fluid"
+                id="hwitterImg"
+              />
             </div>
           </div>
           <div className="row justify-content-around descriptionFooter">
             <div className="col">
               <button className="buttonResume">
-                Live
+                <a href={"https://hwitter.netlify.app/"} id="resumeTag">
+                  Live
+                </a>
               </button>
             </div>
             <div className="col">
               <button className="buttonResume">
-                Git Hub
+                <a
+                  href={"https://github.com/Henrynunez112/hwitter"}
+                  id="resumeTag"
+                >
+                  GitHub
+                </a>
               </button>
             </div>
           </div>
@@ -60,18 +72,32 @@ const Projects = () => {
         <div className="col-md-7">
           <div className="row justify-content-center">
             <div className="col-10 projectJumbo">
-              <img src={Roadie} className="img-fluid" alt="screenshot of Roadie" id="roadieImg" />
+              <img
+                src={Roadie}
+                className="img-fluid"
+                alt="screenshot of Roadie"
+                id="roadieImg"
+              />
             </div>
           </div>
           <div className="row justify-content-around descriptionFooter">
             <div className="col">
               <button className="buttonResume">
-                Live
+                <a href={"https://roadie-app.netlify.app/"} id="resumeTag">
+                  Live
+                </a>
               </button>
             </div>
             <div className="col">
               <button className="buttonResume">
-                Git Hub
+                <a
+                  href={
+                    "https://github.com/Henrynunez112/capstone_team1_roadie_app"
+                  }
+                  id="resumeTag"
+                >
+                  GitHub
+                </a>
               </button>
             </div>
           </div>

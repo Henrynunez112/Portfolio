@@ -52,8 +52,8 @@
   padding: 20px;
 }
 .buttonResume {
-  justify-self: center;
-  align-self: center;
+  /* justify-self: center; */
+  /* align-self: center; */
   background-color: var(--blueRYB) !important;
   color: var(--platinum) !important;
   border: 2px solid var(--blueRYB);
@@ -61,6 +61,7 @@
   width: 100px;
   border-radius: 50px;
   outline: none !important;
+
 }
 .buttonResume:hover {
   box-shadow: 0 1em 1em -0.4em var(--oxfordBlue);
@@ -128,4 +129,7 @@
 }
 .descriptionFooter{
   padding: 10px;
+}
+#resumeTag{
+  color: var(--magnolia);
 }

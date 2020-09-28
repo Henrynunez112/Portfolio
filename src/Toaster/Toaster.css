@@ -1,0 +1,22 @@
+:root {
+    --deepCerise: #e22a8e;
+    --vividSkyBlue: #52d3f7;
+    --oxfordBlue: #031845;
+    --stPatrickBlue: #063088;
+    --stPatrickOpacity: rgba(6, 47, 136, 0.4);
+    --platinum: #eaecee;
+    --magnolia: #ebf0ff;
+    --magTwo: rgba(235, 240, 255, 0.5);
+    --lavenderBlue: #c2d1ff;
+    --lBTwo: rgba(194, 209, 255, 0.5);
+    --blueRYB: #0950ff;
+    --blueRYB2: rgba(9, 79, 255, 0.05);
+    --cornFlowerBlue: #76A0F9;
+  }
+#toasterBooking{
+    background-image: linear-gradient(
+        to bottom right,
+        var(--cornFlowerBlue),
+        var(--magnolia)
+      ) !important;
+}

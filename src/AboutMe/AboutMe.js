@@ -63,15 +63,16 @@ const AboutMe = () => {
                 <p className="h4 letsWork">Let's Work Together!</p>
               </div>
               <div className="row justify-content-center bodyButtonResume">
-                <button className="buttonResume">
                   <a
                     href={resume}
                     // className="buttonResume"
                     id="resumeTag"
+                    target="_blank"
                   >
+                <button className="buttonResume">
                     Resume
-                  </a>
                 </button>
+                  </a>
               </div>
             </div>
           </div>

@@ -27,21 +27,22 @@ const Projects = () => {
           </div>
           <div className="row justify-content-around descriptionFooter">
             <div className="col">
+                <a href={"https://hwitter.netlify.app/"} id="resumeTag" target="_blank">
               <button className="buttonResume">
-                <a href={"https://hwitter.netlify.app/"} id="resumeTag">
                   Live
-                </a>
               </button>
+                </a>
             </div>
             <div className="col">
-              <button className="buttonResume">
                 <a
                   href={"https://github.com/Henrynunez112/hwitter"}
                   id="resumeTag"
+                  target="_blank"
                 >
+              <button className="buttonResume">
                   GitHub
-                </a>
               </button>
+                </a>
             </div>
           </div>
         </div>
@@ -82,23 +83,24 @@ const Projects = () => {
           </div>
           <div className="row justify-content-around descriptionFooter">
             <div className="col">
+                <a href={"https://roadie-app.netlify.app/"} id="resumeTag" target="_blank">
               <button className="buttonResume">
-                <a href={"https://roadie-app.netlify.app/"} id="resumeTag">
                   Live
-                </a>
               </button>
+                </a>
             </div>
             <div className="col">
-              <button className="buttonResume">
                 <a
                   href={
                     "https://github.com/Henrynunez112/capstone_team1_roadie_app"
                   }
                   id="resumeTag"
+                  target="_blank"
                 >
+              <button className="buttonResume">
                   GitHub
-                </a>
               </button>
+                </a>
             </div>
           </div>
         </div>

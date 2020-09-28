@@ -58,7 +58,7 @@
   background-color: var(--magnolia);
   padding: 5px;
   margin: 10px 0px;
-  box-shadow: 5px 5px var(--deepCeriseDark);
+  box-shadow: 5px 5px var(--stPatrickOpacity);
 }
 
 .contactFormRow {

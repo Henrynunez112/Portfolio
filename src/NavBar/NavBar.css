@@ -28,7 +28,7 @@
   color: var(--stPatrickBlue) !important;
 }
 .aboutMe:hover, .projects:hover, .skills:hover{
-  color: var(--deepCerise) !important;
+  color: var(--magnolia) !important;
 }
 .navbar-brand{
   color: var(--stPatrickBlue) !important;
@@ -62,7 +62,7 @@
   transition: .5s;
 }
 .active{
-  color: var(--deepCerise) !important;
+  color: gray !important;
 }
 #contact{
   color: white !important;

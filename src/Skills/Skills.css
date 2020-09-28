@@ -12,17 +12,20 @@
   --lBTwo: rgba(194, 209, 255, 0.5);
   --blueRYB: #0950ff;
   --blueRYB2: rgba(9, 79, 255, 0.05);
+  --cornFlowerBlue: #76A0F9;
 }
 .wholeSkillsContainer {
-  padding: 5px;
+  padding: 10px;
 }
 .skillsHeader {
   padding: 10px;
+  margin: 10px 0px;
 }
 .headerSkills {
   border-radius: 0px 50px !important;
-  border: 2px solid var(--oxfordBlue);
-  background-color: var(--lBTwo) !important;
+  border: 2px solid var(--magnolia);
+  background-color: var(--cornFlowerBlue) !important;
+  box-shadow: 10px 10px var(--oxfordBlue);
   color: var(--oxfordBlue) !important;
 }
 .theSkill {
@@ -33,7 +36,7 @@
   padding: 5px;
   margin: 5px;
   border: 1px solid var(--lBTwo);
-  box-shadow: 5px 10px var(--deepCerise);
+  box-shadow: 5px 10px var(--oxfordBlue);
   background-color: var(--magnolia) !important;
 }
 .skillsContainer:hover{
@@ -44,9 +47,9 @@
 .secondThree {
   border: 2px solid var(--oxfordBlue) !important;
   border-radius: 50px 0px 0px 0px !important;
-  padding: 10px;
-  margin: 10px;
-  background-color: var(--lBTwo) ;
+  padding: 5px;
+  margin: 5px;
+  background-color: var(--cornFlowerBlue) ;
 }
 .secondThree {
   border-radius: 0px !important;
@@ -59,7 +62,7 @@
     border: 2px solid var(--magnolia);
     border-radius: 50px 0px;
     background-color: var(--stPatrickOpacity) !important;
-    box-shadow: 5px 10px var(--blueRYB);
+    box-shadow: 5px 10px var(--oxfordBlue);
 }
 .firstThreeContainer {
   display: flex;
@@ -70,4 +73,7 @@
 }
 .bootstrap{
     border-radius: 0px 0px 20px 0px;
+}
+.individualSkill{
+  margin: 0px 10px;
 }

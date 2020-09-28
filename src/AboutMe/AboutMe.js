@@ -11,7 +11,7 @@ const AboutMe = () => {
           <div className="row justify-content-center">
             <div className="col-sm-10 aboutMeJumbo">
               <div className="row justify-content-around aboutMeHeaderRow">
-                <p className="h1 text-center col-10 aboutMeHeader">
+                <p className="h1 text-center col-10 aboutMeHeader display-4">
                 Henry Nuñez
                 </p>
               </div>

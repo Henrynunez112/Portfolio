@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="container projectsContainer">
       <div className="row justify-content-center projectsHeader">
         <div className="col-10 headerProjects">
-          <h1 class="display-4">
+          <h1 className="display-4" id="projectsTitle">
             <span id="initials">P</span>rojects
           </h1>
         </div>

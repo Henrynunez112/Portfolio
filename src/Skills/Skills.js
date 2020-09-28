@@ -6,7 +6,7 @@ const Skills = () => {
     <div className="container wholeSkillsContainer">
       <div className="row justify-content-center skillsHeader">
         <div className="col-10 headerSkills">
-          <h1 className="display-4">
+          <h1 className="display-4 " id="projectsTitle">
             <span id="initials">S</span>kills
           </h1>
         </div>

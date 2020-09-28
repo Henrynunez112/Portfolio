@@ -12,6 +12,7 @@
   --lBTwo: rgba(194, 209, 255, 0.5);
   --blueRYB: #0950ff;
   --blueRYB2: rgba(9, 79, 255, 0.05);
+  --cornFlowerBlue: #76A0F9;
 }
 .projectsContainer {
   padding: 10px;
@@ -19,11 +20,15 @@
 .projectsHeader {
   padding: 10px;
 }
+#projectsTitle{
+  color: var(--magnolia);
+}
 .headerProjects {
   border-radius: 0px 50px !important;
-  border: 2px solid var(--oxfordBlue);
-  background-color: var(--lBTwo) !important;
+  border: 2px solid var(--magnolia);
+  background-color: var(--cornFlowerBlue) !important;
   color: var(--oxfordBlue) !important;
+  box-shadow: 10px 10px var(--oxfordBlue);
 }
 .projectJumbo {
   padding: 20px;
@@ -31,15 +36,15 @@
 }
 #hwitterImg {
   border-radius: 50px 0px !important;
-  box-shadow: 20px 20px var(--blueRYB);
+  box-shadow: 20px 20px var(--oxfordBlue);
   background-color: var(--magnolia) !important;
-  border: 2px solid var(--deepCerise) !important;
+  border: 2px solid var(--stPatrickOpacity) !important;
 }
 #roadieImg {
   border-radius: 50px 0px !important;
-  box-shadow: 20px 20px var(--blueRYB);
+  box-shadow: 20px 20px var(--oxfordBlue);
   background-color: var(--magnolia) !important;
-  border: 2px solid var(--deepCerise) !important;
+  border: 2px solid var(--stPatrickOpacity) !important;
 }
 .projectDescription {
   padding: 10px;
@@ -55,10 +60,11 @@
 }
 .descriptionBody {
   padding: 15px;
-  border: 2px solid var(--stPatrickBlue);
-  background-color: var(--stPatrickOpacity);
+  border: 2px solid var(--lBTwo);
+  background-color: var(--cornFlowerBlue);
   border-radius: 0px 50px;
-  color: white;
+  color: var(--magnolia);
+  box-shadow: 5px 5px var(--oxfordBlue);
 }
 
 #liveLink:active,
@@ -82,6 +88,8 @@
 .firstProject, .secondProject{
     border: 2px solid var(--oxfordBlue) !important;
     padding: 20px;
-    margin: 10px;
+    margin: 20px 10px;
     border-radius: 0px 50px !important;
+    background-color: var(--stPatrickOpacity);
+    box-shadow: 5px 5px 10px #000000;
 }

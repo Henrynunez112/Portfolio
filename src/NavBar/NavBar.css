@@ -9,14 +9,20 @@
   --lBTwo: rgba(194, 209, 255, 0.5);
   --platinum: #EAECEE;
   --blueRYB: #0950FF;
+  --cornFlowerBlue: #76A0F9;
 }
 #restInny{
   color: var(--oxfordBlue) !important;
 }
 #root > div > nav{
-  background-color: var(--magnolia) !important;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--cornFlowerBlue),
+    var(--magnolia)
+  ) !important;
   font-family: 'Kumbh Sans', sans-serif;
-  border-bottom: 1px solid var(--lavenderBlue);
+  border-bottom: 1px solid var(--oxfordBlue);
+  box-shadow: 1px 1px 4px #000000;
 }
 .aboutMe, .projects, .skills{
   color: var(--stPatrickBlue) !important;
@@ -30,7 +36,7 @@
   font-weight: bold;
 }
 #initials{
-  color: var(--oxfordBlue) !important;
+  color: var(--magnolia) !important;
   font-weight: bold;
 }
 .nav-link{

@@ -22,12 +22,12 @@ const Projects = () => {
           </div>
           <div className="row justify-content-around descriptionFooter">
             <div className="col">
-              <button className="buttonResume" id="liveLink">
+              <button className="buttonResume">
                 Live
               </button>
             </div>
             <div className="col">
-              <button className="buttonResume" id="githubLink">
+              <button className="buttonResume">
                 Git Hub
               </button>
             </div>
@@ -65,12 +65,12 @@ const Projects = () => {
           </div>
           <div className="row justify-content-around descriptionFooter">
             <div className="col">
-              <button className="buttonResume" id="liveLink">
+              <button className="buttonResume">
                 Live
               </button>
             </div>
             <div className="col">
-              <button className="buttonResume" id="githubLink">
+              <button className="buttonResume">
                 Git Hub
               </button>
             </div>

@@ -6,7 +6,7 @@ const ContactMe = () => {
     <div className="container contactMeForm">
       <div className="row justify-content-center">
         <div className="col-10 contactHeader">
-          <h1>
+          <h1 className="display-4 " id="projectsTitle">
             <span id="initials">C</span>ontact
           </h1>
         </div>

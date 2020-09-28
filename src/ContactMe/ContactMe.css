@@ -13,29 +13,33 @@
   --lBTwo: rgba(194, 209, 255, 0.5);
   --blueRYB: #0950ff;
   --blueRYB2: rgba(9, 79, 255, 0.05);
+  --cornFlowerBlue: #76A0F9;
 }
 .contactMeForm {
   padding: 20px;
 }
 .contactHeader {
   border-radius: 50px !important;
-  border: 2px solid var(--oxfordBlue);
-  background-color: var(--lBTwo) !important;
-  color: var(--oxfordBlue) !important;
-  margin-bottom: 10px;
+  border: 2px solid var(--magnolia);
+  background-color: var(--cornFlowerBlue) !important;
+  color: var(--magnolia) !important;
+  box-shadow: 10px 10px var(--oxfordBlue);
+  margin-bottom: 20px;
 }
 .contactBodyRow {
   border: 2px solid var(--oxfordBlue) !important;
   border-radius: 50px !important;
   margin-bottom: 10px;
   background-color: var(--stPatrickOpacity);
+  box-shadow: 5px 5px 10px #000000;
+  margin-bottom: 20px;
 }
 .contactBodyDiv {
-  background-color: var(--lBTwo) !important;
+  background-color: var(--cornFlowerBlue) !important;
   margin: 10px;
   border-radius: 50px !important;
-  border: 2px solid var(--oxfordBlue);
-  box-shadow: 5px 5px var(--blueRYB);
+  border: 2px solid var(--magnolia);
+  box-shadow: 5px 5px var(--oxfordBlue);
 }
 .contactHeaderTouch {
   /* border: 2px solid var(--oxfordBlue);
@@ -60,14 +64,15 @@
 .contactFormRow {
   border: 2px solid var(--oxfordBlue) !important;
   background-color: var(--stPatrickOpacity) !important;
+  box-shadow: 5px 5px 10px #000000;
   border-radius: 50px;
   padding: 10px;
 }
 .contactForm {
-  background-color: var(--lBTwo) !important;
+  background-color: var(--cornFlowerBlue) !important;
   border-radius: 50px;
-  border: 2px solid var(--oxfordBlue);
-  box-shadow: 5px 5px var(--deepCerise);
+  border: 2px solid var(--magnolia);
+  box-shadow: 5px 5px var(--oxfordBlue);
   padding: 20px;
 }
 .nameContactText {
@@ -79,7 +84,7 @@
 .form-control{
   border: 2px solid var(--oxfordBlue);
   border-radius: 50px;
-  padding: 10px;
+  padding: 15px;
   resize: none;
 }
 .buttonContact{

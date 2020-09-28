@@ -46,19 +46,22 @@ const ContactMe = () => {
             <div className="row justify-content-center text-center">
               <div className="col-10 emailContact text-center">
                 <p>
-                  <a href="mailto:henrynunez@pursuit.org">
+                  <a href="mailto:henrynunez@pursuit.org" target="_blank">
                     Henrynunez@pursuit.org
                   </a>
                 </p>
               </div>
               <div className="row justify-content-between logoContact">
                 <div className="col-6" id="contactIcon">
-                  <a href={"https://www.linkedin.com/in/henrysaulnunez/"}>
+                  <a
+                    href={"https://www.linkedin.com/in/henrysaulnunez/"}
+                    target="_blank"
+                  >
                     <i className="devicon-linkedin-plain colored theSkillTwo text-center"></i>
                   </a>
                 </div>
                 <div className="col-6" id="contactIcon">
-                  <a href={"https://github.com/Henrynunez112/"}>
+                  <a href={"https://github.com/Henrynunez112/"} target="_blank">
                     <i className="devicon-github-plain colored theSkillTwo text-center"></i>
                   </a>
                 </div>

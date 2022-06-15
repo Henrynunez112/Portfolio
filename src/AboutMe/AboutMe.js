@@ -13,7 +13,7 @@ const AboutMe = () => {
             <div className="col-sm-10 aboutMeJumbo">
               <div className="row justify-content-around aboutMeHeaderRow">
                 <p className="h1 text-center col-10 aboutMeHeader display-4">
-                  Henry Nuñez
+                  Henry Saul Nuñez
                 </p>
               </div>
               <div className="row justify-content-center text-left aboutMeParagraphContainer">

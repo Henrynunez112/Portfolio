@@ -27,7 +27,7 @@ const Projects = () => {
           </div>
           <div className="row justify-content-around descriptionFooter">
             <div className="col">
-                <a href={"https://hwitter.netlify.app/"} id="resumeTag" target="_blank">
+                <a href={"https://hwitter.netlify.app/"} id="resumeTag" target="_blank" rel="noreferrer">
               <button className="buttonResume">
                   Live
               </button>
@@ -37,7 +37,7 @@ const Projects = () => {
                 <a
                   href={"https://github.com/Henrynunez112/hwitter"}
                   id="resumeTag"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
               <button className="buttonResume">
                   GitHub
@@ -83,7 +83,7 @@ const Projects = () => {
           </div>
           <div className="row justify-content-around descriptionFooter">
             <div className="col">
-                <a href={"https://roadie-app.netlify.app/"} id="resumeTag" target="_blank">
+                <a href={"https://roadie-app.netlify.app/"} id="resumeTag" target="_blank" rel="noreferrer">
               <button className="buttonResume">
                   Live
               </button>
@@ -95,7 +95,7 @@ const Projects = () => {
                     "https://github.com/Henrynunez112/capstone_team1_roadie_app"
                   }
                   id="resumeTag"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
               <button className="buttonResume">
                   GitHub

@@ -46,7 +46,7 @@ const ContactMe = () => {
             <div className="row justify-content-center text-center">
               <div className="col-10 emailContact text-center">
                 <p>
-                  <a href="mailto:henrynunez@pursuit.org" target="_blank">
+                  <a href="mailto:henrynunez@pursuit.org" target="_blank" rel="noreferrer">
                     Henrynunez@pursuit.org
                   </a>
                 </p>
@@ -55,13 +55,13 @@ const ContactMe = () => {
                 <div className="col-6" id="contactIcon">
                   <a
                     href={"https://www.linkedin.com/in/henrysaulnunez/"}
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <i className="devicon-linkedin-plain colored theSkillTwo text-center"></i>
                   </a>
                 </div>
                 <div className="col-6" id="contactIcon">
-                  <a href={"https://github.com/Henrynunez112/"} target="_blank">
+                  <a href={"https://github.com/Henrynunez112/"} target="_blank" rel="noreferrer">
                     <i className="devicon-github-plain colored theSkillTwo text-center"></i>
                   </a>
                 </div>

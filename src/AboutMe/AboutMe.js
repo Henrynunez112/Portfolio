@@ -67,7 +67,7 @@ const AboutMe = () => {
                     href={resume}
                     // className="buttonResume"
                     id="resumeTag"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                 <button className="buttonResume">
                     Resume
